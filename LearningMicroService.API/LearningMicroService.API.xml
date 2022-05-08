@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LearningMicroService.API</name>
+    </assembly>
+    <members>
+        <member name="M:LearningMicroService.API.Controllers.PeopleController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor of People Controller
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:LearningMicroService.API.Controllers.PeopleController.Get">
+            <summary>
+            Action to get list of people
+            </summary>
+            <returns>List of people</returns>
+        </member>
+    </members>
+</doc>
