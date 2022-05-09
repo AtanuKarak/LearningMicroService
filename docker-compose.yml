@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  learningmicroservice.api:
-    image: ${DOCKER_REGISTRY-}learningmicroserviceapi
-    build:
-      context: .
-      dockerfile: LearningMicroService.API/Dockerfile
