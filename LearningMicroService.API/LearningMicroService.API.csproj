@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>G:\Practice Projects\Web API\LearningMicroService\LearningMicroService.API\LearningMicroService.API.xml</DocumentationFile>
+    <DocumentationFile>.\LearningMicroService.API.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>G:\Practice Projects\Web API\LearningMicroService\LearningMicroService.API\LearningMicroService.API.xml</DocumentationFile>
+    <DocumentationFile>.\LearningMicroService.API.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
