@@ -47,7 +47,7 @@ steps:
       projects: '**/LearningMicroService.API.csproj'      
       arguments: '--configuration $(buildConfiguration) --no-restore'
       modifyOutputPath: false
-    condition: and(success(), ne(variables['build.reason'], 'PullRequest'))
+    condition: and(succeeded(), ne(variables['build.reason'], 'PullRequest'))
     displayName: 'Publish LearningMicroService API'
 
 
